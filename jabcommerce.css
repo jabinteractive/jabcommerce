@@ -4,7 +4,16 @@
     flex-direction: column;
     margin: auto;
     margin-top: 60px;
-    padding: 12px;
+    padding: 16px;
+}
+
+.logocenter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 40%;
+    margin: auto;
+    text-align: center;
 }
 
 .headerbuttons {
@@ -13,4 +22,13 @@
     justify-content: center;
     place-content: space-evenly;
     width: auto;
+}
+
+.productimage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 16px;
+    padding: 16px;
 }
